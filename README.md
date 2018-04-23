@@ -5,4 +5,7 @@ The page shows a random quote which can be regenerated with a click of a button.
 Built using HTML5, CSS3, Bootstrap4, JavaScript & jQuery.
 Quotes are fetched through an API from a remote DB.
 
+# demo
+https://sam-pop.github.io/randomQuoteMachine/
+
 <center><img src="https://s17.postimg.cc/aec4um0hb/Capture.png"></center>
