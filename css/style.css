@@ -1,0 +1,79 @@
+body {
+  font-family: "Quicksand", sans-serif;
+}
+
+#title {
+  text-align: center;
+  font-size: 1.5em;
+  color: teal;
+}
+
+#quoteText {
+  font-family: "Playfair Display", serif;
+}
+
+#author {
+  text-align: right;
+  font-size: 0.6em;
+  font-family: "Pacifico", cursive;
+  padding-top:10px;
+}
+
+#nextButton {
+  color: black;
+  background: white;
+  font-weight: 0;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 15px;
+}
+
+#nextButton:active{
+  background: gray !important;
+}
+
+.topLeft {
+  position: absolute;
+  top: 1em;
+  left: 3em;
+  font-size: 2em;
+}
+.bottomRight {
+  position: absolute;
+  bottom: 1em;
+  right: 3em;
+  font-size: 2em;
+}
+
+.quotes {
+  position: relative;
+  padding-top: 11vh;
+  padding-bottom: 11vh;
+  font-size: 3em;
+}
+
+.fas {
+  font-size: 2em;
+}
+
+button:hover {
+  background: #F8F9FA !important;
+  border-color:#F8F9FA !important;
+}
+
+.dropdown:hover > .dropdown-menu {
+  display: block;
+}
+
+
+.btn.raised {
+	box-shadow: 0 2px 0 0 black;
+}
+
+.btn.raised:active, .btn.raised.active {
+	box-shadow: none;
+	margin-bottom: -3px;
+	margin-top: 3px;
+}
+

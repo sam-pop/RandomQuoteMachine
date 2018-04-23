@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Random Quote Machine</title>
+  
+  <link href="https://fonts.googleapis.com/css?family=PT+Serif|Pacifico|Playfair+Display|Quicksand|Tajawal" rel="stylesheet">
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/fontawesome-iconpicker/3.0.0/css/fontawesome-iconpicker.css'>
+  <link rel='stylesheet prefetch' href='https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'>
+  <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css'>
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css'>
+  <link rel="stylesheet" href="css/style.css">
+
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+  <script src='https://use.fontawesome.com/releases/v5.0.9/js/all.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.0/clipboard.min.js'></script>
+  <script src="js/index.js"></script>
+</head>
+
+<body>
+  <div class="container-fluid">
+    <!-- title -->
+    <div class="row">
+      <div class="col-sm-3 col-md-3 bg-light" style="font-weight:bold; color:#555555;">
+
+        <div class="dropdown">
+          <button type="button" class="btn btn-light dropdown-toggle" data-toggle="dropdown">
+            Share
+          </button>
+          <div class="dropdown-menu animated bounceIn">
+            <a id="shareTwitter" class="dropdown-item text-center" title="Share on Twitter" href="http://twitter.com/share?text=Samuel Poplovitch builds awesome Quote Machines&hashtags=RandomQuoteMachine"
+              target="_blank">
+              <i class="fab fa-twitter" style="color:#17A2F2"></i>
+            </a>
+            <a id="shareEmail" class="dropdown-item text-center" title="Send in an email">
+              <i class="fas fa-envelope" style="color:#C11414"></i>
+            </a>
+            <a class="dropdown-header text-center" style="font-size:0.7em">
+              Created By Samuel Poplovitch
+            </a>
+          </div>
+        </div>
+      </div>
+      <div id="title" class="col-sm-6 col-md-6 bg-light">
+        RandomQuoteMachine
+      </div>
+      <div class="col-sm-3 col-md-3 bg-light"></div>
+    </div>
+
+    <!-- Quotes -->
+    <div class="container-fluid" style="padding-top:5vh;">
+      <div class="row">
+        <div class="col-sm-2">
+          <i class="fas fa-quote-left topLeft"></i>
+        </div>
+        <div class="col-sm-8 text-center quotes animated zoomIn">
+          <h1 id="quoteText" class="animated zoomIn">
+            Welcome to my Random Quote Machine!
+            <br>
+          </h1>
+          <p id="author">
+            - Samuel Poplovitch
+          </p>
+        </div>
+        <div class="col-sm-2">
+          <i class="fas fa-quote-right bottomRight"></i>
+        </div>
+      </div>
+
+      <!-- buttons and social -->
+      <div class="row">
+        <div class="col-md-4">
+        </div>
+        <div class="col-md-4 text-center">
+          <input type="button" id="nextButton" class="btn raised" onclick="getQuote();" value="Next Quote" />
+        </div>
+        <div class="col-md-4"></div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
