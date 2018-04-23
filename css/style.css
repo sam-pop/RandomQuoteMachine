@@ -21,7 +21,7 @@ body {
 
 #nextButton {
   color: black;
-  background: white;
+  background: rgb(206, 198, 198);
   font-weight: 0;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
